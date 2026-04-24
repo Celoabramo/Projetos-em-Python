@@ -86,6 +86,6 @@ while True:
         if p > 0 and j >= 0:
             pt += p
             j += 1
-            print ("Valor atual do pedido: ", pt,
+            print ("Valor atual do pedido: ", pt,"R$"
                    "\nQuantidade de itens: ", j)
 
