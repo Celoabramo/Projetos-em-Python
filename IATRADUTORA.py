@@ -1,3 +1,4 @@
+#pip install google-genai (tem que instalar para funcionar) 
 from google import genai
 
 client = genai.Client(api_key="SUA_API_KEY")
