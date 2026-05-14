@@ -29,8 +29,8 @@ Os conteúdos estão separados por temas para facilitar o aprendizado:
 
 * 📌 `Agenda de contatos.py` → programa simples para cadastrar, visualizar e gerenciar contatos
 * ☕ `Cafeteria.py` → simulação de sistema de pedidos de uma cafeteria
-* 🤖`IATRADUTORA.py` → IA com API da google que traduz do portugues para o inglês
-
+* 🤖 `IATRADUTORA.py` → IA com API da google que traduz do portugues para o inglês
+* 💵 `Vendas.py` → Aprendendo lista e matrizes
 ---
 
 ## 🚀 Como executar os arquivos
