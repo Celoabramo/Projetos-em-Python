@@ -66,17 +66,15 @@ while True:
         
     terminar = input("Reiniciar?(s/n):")
 
-    if terminar =="n":
+    if terminar == "n":
         for j in range(len(Vendas)):
+            if len(Vendas[j][1]) <= 0:
+                print("SEM VENDAS!!")
+                break
             for i in range(len(Vendas[j])):
                 for r in range(len(Vendas[j][1])):
-                    if len(Vendas[j][1]) <= 0 :
-                        print ("SEM VENDAS!!")
-                        break
-                    else:
-                        print(f"{Vendas[j][1][r]}")
-                
-            break
+                    print(f"{Vendas[j][0]} - {Vendas[j][1][r]}")
+
         break
     else:
         Vendas[0].pop()
