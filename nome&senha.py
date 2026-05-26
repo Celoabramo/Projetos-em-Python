@@ -1,9 +1,9 @@
-lista=["marcelonajjar"]
+logon=[["marcelo","najjar"]]
 
-def validar(log):
+def validar(nom,sen):
     val = 0
-    for i in lista:
-        if log == i:
+    for i in logon:
+        if nom == i[0] and sen == i[1]:
             val +=1
         else:
             continue
@@ -18,20 +18,19 @@ while True:
         if op == 1:
             nome = str(input("digite o seu nome: "))
             senha = str(input("digite sua senha: "))
-            login = nome + senha
-            if validar(login) >= 1 :
+            if validar(nome,senha) >= 1 :
                 print("Olá ", nome)
-            elif validar(login) ==0:
-                print("Cadastre ou arrume a senha")
+            elif validar(nome,senha) ==0:
+                print("Usário e/ou senha incorreto!")
 
 
 
         elif op == 2:
             nome = str(input("digite o seu nome: "))
             senha = str(input("digite sua senha: "))
-            login = nome + senha
-            lista.append(login)
+            logon.append([nome,senha])
 
         else:
             print("Obrigado:)")
             break
+
