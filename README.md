@@ -31,7 +31,7 @@ Os conteúdos estão separados por temas para facilitar o aprendizado:
 * ☕ `Cafeteria.py` → simulação de sistema de pedidos de uma cafeteria
 * 🤖 `IATRADUTORA.py` → IA com API da google que traduz do portugues para o inglês
 * 💵 `Vendas.py` → Aprendendo lista e matrizes
-* 🔏 `nome&senha.py` → Ptimeiro projeto de nome e senha tirado do zero :)
+* 🔏 `nome&senha.py` → Primeiro projeto de nome e senha tirado do zero :)
 ---
 
 ## 🚀 Como executar os arquivos
