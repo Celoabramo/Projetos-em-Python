@@ -32,6 +32,7 @@ Os conteúdos estão separados por temas para facilitar o aprendizado:
 * 🤖 `IATRADUTORA.py` → IA com API da google que traduz do portugues para o inglês
 * 💵 `Vendas.py` → Aprendendo lista e matrizes
 * 🔏 `nome&senha.py` → Primeiro projeto de nome e senha tirado do zero :)
+* 📋`Relatório de Vendas`→ Projeto envolvendo outros tipos de arquivos como txt e csv.
 ---
 
 ## 🚀 Como executar os arquivos
